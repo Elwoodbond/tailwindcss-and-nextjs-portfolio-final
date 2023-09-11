@@ -3,6 +3,7 @@ import React from "react"
 import Image from "next/image"
 import { Link } from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
+import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai"
 
 const HeroSection = () => {
   return (
@@ -10,7 +11,7 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/headshot.png"
+            src="/headshot.jpeg"
             alt=""
             width={325}
             height={325}
@@ -38,6 +39,23 @@ const HeroSection = () => {
           >
             Projects
           </Link>
+          <div className="flex flex-row space-x-2 mt-4 px-4">
+          <a href="https://github.com/Elwoodbond" rel="noreferrer" target="_blank">
+            <AiOutlineGithub
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+
+
+          <a href="https://www.linkedin.com/in/elwood-bond-038b9b1a6" rel="noreferrer" target="_blank">
+            <AiOutlineLinkedin
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          </div>
+
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
