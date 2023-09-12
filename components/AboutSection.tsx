@@ -38,8 +38,11 @@ const AboutSection = () => {
                open to new opportunities both remote and in the Tampa Bay 
               area.
               <br />
-
-          <div className="flex flex-row text-center text-2xl font-bold mb-6 md:text-left">
+              <br />
+              Keep up to date with my projects and progress on my GitHub and LinkedIn pages.
+              <br />
+              <br />
+          <div className="justify-center space-x-2 mb-1 flex flex-row text-center text-4xl font-bold mb-6">
           <a href="https://github.com/Elwoodbond" rel="noreferrer" target="_blank">
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
