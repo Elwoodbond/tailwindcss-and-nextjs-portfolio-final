@@ -39,7 +39,7 @@ const HeroSection = () => {
           >
             Projects
           </Link>
-          <div className="flex flex-row space-x-2 mt-4 px-4">
+          <div className="flex flex-row space-x-2 mt-4">
           <a href="https://github.com/Elwoodbond" rel="noreferrer" target="_blank">
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"

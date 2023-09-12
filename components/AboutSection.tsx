@@ -34,7 +34,7 @@ const AboutSection = () => {
               I have a passion for
               learning and a desire to always discover more about the world
               around me. I am excited to see where my career takes me and am
-              always open to new opportunities but remote and in the Tampa Bay 
+              always open to new opportunities both remote and in the Tampa Bay 
               area.
             </p>
           </div>

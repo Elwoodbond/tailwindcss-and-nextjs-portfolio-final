@@ -6,27 +6,27 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "IMDb Clone",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "IMDb Clone is a movie database app that built using the MERN stack.",
+    image: "/imdb.png",
+    github: "https://github.com/Elwoodbond/imdb-clone",
+    link: "https://imdb-wheat.vercel.app/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Drum Kit",
+    description: "Drum Kit is a virtual drum kit built using vanilla JS and JQuery.",
+    image: "/drum.png",
+    github: "https://github.com/Elwoodbond/DrumMachine",
+    link: "https://drum-machine-xi.vercel.app/",
   },
   {
-    name: "Kator Family Photos",
+    name: "TinDog",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "TinDog is a landing page built using Bootstrap.",
+    image: "/tindog.png",
+    github: "https://github.com/Elwoodbond/tindog-main",
+    link: "https://elwoodbond.github.io/tindog-main/",
   },
 ]
 
