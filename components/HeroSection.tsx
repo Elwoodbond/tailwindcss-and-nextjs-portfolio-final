@@ -26,7 +26,7 @@ const HeroSection = () => {
               developer{" "}
             </span>
             based in Tampa, Fl. Working towards creating web apps and pages that
-            make life easier and more meaningful.
+            make life easier.
           </p>
           <Link
             to="projects"
@@ -39,25 +39,9 @@ const HeroSection = () => {
           >
             Projects
           </Link>
-          <div className="flex flex-row space-x-2 mt-4">
-          <a href="https://github.com/Elwoodbond" rel="noreferrer" target="_blank">
-            <AiOutlineGithub
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
-
-
-          <a href="https://www.linkedin.com/in/elwood-bond-038b9b1a6" rel="noreferrer" target="_blank">
-            <AiOutlineLinkedin
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
-          </div>
-
         </div>
       </div>
+      
       <div className="flex flex-row items-center text-center justify-center ">
         <Link
           to="about"

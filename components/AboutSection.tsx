@@ -1,5 +1,6 @@
 import React from "react"
 import Image from "next/image"
+import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai"
 
 const skills = [
   { skill: "HTML" },
@@ -34,8 +35,26 @@ const AboutSection = () => {
               I have a passion for
               learning and a desire to always discover more about the world
               around me. I am excited to see where my career takes me and am
-              always open to new opportunities both remote and in the Tampa Bay 
+               open to new opportunities both remote and in the Tampa Bay 
               area.
+              <br />
+
+          <div className="flex flex-row text-center text-2xl font-bold mb-6 md:text-left">
+          <a href="https://github.com/Elwoodbond" rel="noreferrer" target="_blank">
+            <AiOutlineGithub
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+
+
+          <a href="https://www.linkedin.com/in/elwood-bond-038b9b1a6" rel="noreferrer" target="_blank">
+            <AiOutlineLinkedin
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          </div>
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
