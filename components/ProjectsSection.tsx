@@ -8,7 +8,7 @@ const projects = [
   {
     name: "IMDb Clone",
     description:
-      "IMDb Clone is a movie database app that built using the MERN stack.",
+      "IMDb Clone is a movie database app that built using Next.js and Tailwind CSS.",
     image: "/imdb.png",
     github: "https://github.com/Elwoodbond/imdb-clone",
     link: "https://imdb-wheat.vercel.app/",
@@ -28,6 +28,13 @@ const projects = [
     github: "https://github.com/Elwoodbond/tindog-main",
     link: "https://elwoodbond.github.io/tindog-main/",
   },
+  {
+    name: "Futurama Mailer",
+    description: "Futurama Mailer is a mailer app built with vanilla JS and the MailChimp API.",
+    image: "/mailinglist.png",
+    github: "https://github.com/Elwoodbond/newsletter-signup",
+    link: "https://newsletter1-05dc48fbccb6.herokuapp.com/",
+  }
 ]
 
 const ProjectsSection = () => {
