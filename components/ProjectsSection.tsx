@@ -9,7 +9,7 @@ const projects = [
     name: "IMDb Clone",
     description:
       "IMDb Clone is a movie database app that built using Next.js and Tailwind CSS.",
-    image: "/imdb.png",
+    image: "/IMDb.png",
     github: "https://github.com/Elwoodbond/imdb-clone",
     link: "https://imdb-wheat.vercel.app/",
   },
