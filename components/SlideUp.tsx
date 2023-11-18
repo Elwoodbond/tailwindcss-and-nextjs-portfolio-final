@@ -1,4 +1,5 @@
 "use client" // this is a client component
+// eslint-disable-next-line react-hooks/exhaustive-deps
 
 import React, { useEffect, useRef, ReactNode } from "react"
 interface Props {
