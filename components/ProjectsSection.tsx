@@ -23,7 +23,7 @@ const projects = [
   },
   {
     name: "Drum Kit",
-    description: "Drum Kit is a virtual drum kit built using vanilla JS and JQuery.",
+    description: "Drum Kit is a virtual drum kit built using JavaScript and JQuery.",
     image: "/drum.png",
     github: "https://github.com/Elwoodbond/DrumMachine",
     link: "https://drum-machine-xi.vercel.app/",
@@ -38,7 +38,7 @@ const projects = [
   },
   {
     name: "Futurama Mailer",
-    description: "Futurama Mailer is a mailer app built with vanilla JS and the MailChimp API.",
+    description: "Futurama Mailer is a mailer app built with JavaScript and the MailChimp API.",
     image: "/mailinglist.png",
     github: "https://github.com/Elwoodbond/newsletter-signup",
     link: "https://newsletter1-05dc48fbccb6.herokuapp.com/",
