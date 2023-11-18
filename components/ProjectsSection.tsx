@@ -6,6 +6,14 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
+    name: "Sōshal",
+    description:
+      "Sōshal is a fullstack microblogging app built using Next.js, Tailwind CSS, TypeScript, and MongoDB Atlas.",
+    image: "/soshal.png",
+    github: "https://github.com/Elwoodbond/soshal",
+    link: "https://soshal.vercel.app/",
+  },
+  {
     name: "IMDb Clone",
     description:
       "IMDb Clone is a movie database app that built using Next.js and Tailwind CSS.",
