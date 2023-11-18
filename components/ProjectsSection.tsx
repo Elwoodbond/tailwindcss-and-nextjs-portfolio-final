@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
-import SlideUp from "./SlideUp"
+import SlideUp from "components/SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
@@ -36,13 +36,6 @@ const projects = [
     github: "https://github.com/Elwoodbond/tindog-main",
     link: "https://elwoodbond.github.io/tindog-main/",
   },
-  {
-    name: "Futurama Mailer",
-    description: "Futurama Mailer is a mailer app built with JavaScript and the MailChimp API.",
-    image: "/mailinglist.png",
-    github: "https://github.com/Elwoodbond/newsletter-signup",
-    link: "https://newsletter1-05dc48fbccb6.herokuapp.com/",
-  }
 ]
 
 const ProjectsSection = () => {
